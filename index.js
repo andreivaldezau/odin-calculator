@@ -81,9 +81,9 @@ function operate(a, b, operator) {
       return add(a, b);
     case "-":
       return subtract(a, b);
-    case "x":
+    case "*":
       return multiply(a, b);
-    case "÷":
+    case "/":
       return divide(a, b);
     default:
       console.log("Invalid operation.");
